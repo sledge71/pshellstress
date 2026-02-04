@@ -1,196 +1,0 @@
-﻿--- Neuer Lauf: 2026-02-04 18:11:19 ---
-=================================================
-TIME:    18:11:19
-CMD:     curl -I https://www.google.com
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to www.google.com port 443 after 7 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:11:19
-CMD:     curl -X GET https://httpstat.us/200 -H "Accept: application/json" --connect-timeout 5
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpstat.us port 443 after 44 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:11:19
-CMD:     curl -X POST https://httpbin.org/post -H "Content-Type: application/json" -d "{\"name\": \"test\", \"active\": true}"
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpbin.org port 443 after 27 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:11:19
-CMD:     curl https://domain.die.es.nicht.gibt.de
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to domain.die.es.nicht.gibt.de port 443 after 43 ms: Could not connect to server
-
-=================================================
-
---- Neuer Lauf: 2026-02-04 18:15:34 ---
-=================================================
-TIME:    18:15:34
-CMD:     curl -I https://www.google.com
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to www.google.com port 443 after 24 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:15:34
-CMD:     curl -X GET https://httpstat.us/200 -H "Accept: application/json" --connect-timeout 5
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpstat.us port 443 after 4 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:15:34
-CMD:     curl -X POST https://httpbin.org/post -H "Content-Type: application/json" -d "{\"name\": \"test\", \"active\": true}"
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpbin.org port 443 after 25 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:15:34
-CMD:     curl https://domain.die.es.nicht.gibt.de
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to domain.die.es.nicht.gibt.de port 443 after 4 ms: Could not connect to server
-
-=================================================
-
---- Neuer Lauf: 2026-02-04 18:17:07 ---
-=================================================
-TIME:    18:17:07
-CMD:     curl -I https://www.google.com
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to www.google.com port 443 after 8 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:17:07
-CMD:     curl -X GET https://httpstat.us/200 -H "Accept: application/json" --connect-timeout 5
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpstat.us port 443 after 4 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:17:07
-CMD:     curl -X POST https://httpbin.org/post -H "Content-Type: application/json" -d "{\"name\": \"test\", \"active\": true}"
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpbin.org port 443 after 26 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:17:08
-CMD:     curl https://domain.die.es.nicht.gibt.de
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to domain.die.es.nicht.gibt.de port 443 after 4 ms: Could not connect to server
-
-=================================================
-
---- Neuer Lauf: 2026-02-04 18:23:05 ---
-=================================================
-TIME:    18:23:05
-CMD:     curl -I https://www.google.com
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to www.google.com port 443 after 6 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:23:05
-CMD:     curl -X GET https://httpstat.us/200 -H "Accept: application/json" --connect-timeout 5
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpstat.us port 443 after 4 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:23:05
-CMD:     curl -X POST https://httpbin.org/post -H "Content-Type: application/json" -d "{\"name\": \"test\", \"active\": true}"
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to httpbin.org port 443 after 27 ms: Could not connect to server
-
-=================================================
-
-=================================================
-TIME:    18:23:05
-CMD:     curl https://domain.die.es.nicht.gibt.de
-STATUS:  Exit Code 7
-ERROR:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (7) Failed to connect to domain.die.es.nicht.gibt.de port 443 after 4 ms: Could not connect to server
-
-=================================================
-
