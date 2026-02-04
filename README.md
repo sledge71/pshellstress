@@ -42,3 +42,21 @@ curl -X POST [https://httpbin.org/post](https://httpbin.org/post) -H "Content-Ty
 
 Sequentiell (Nacheinander): Gut für Debugging oder wenn die Reihenfolge wichtig ist.
 .\MultiCurlCmd.ps1 -InputFile commands.txt
+
+Parallel (Gleichzeitig): Benötigt PowerShell 7+. Ideal für Lasttests oder viele Requests.
+.\MultiCurlCmd.ps1 -InputFile commands.txt -Parallel -ThrottleLimit 10
+
+📄 Logging
+Die Ergebnisse werden standardmäßig in log_curl.txt gespeichert (kann mit -LogFile angepasst werden).
+
+Beispiel Log-Output:
+--- Neuer Lauf: 2023-10-27 14:00:00 ---
+=================================================
+TIME:    14:00:01
+CMD:     curl -I [https://www.google.com](https://www.google.com)
+STATUS:  Exit Code 0
+OUTPUT:
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+...
+=================================================
