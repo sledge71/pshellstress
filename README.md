@@ -37,3 +37,8 @@ curl -X GET [https://httpbin.org/get](https://httpbin.org/get) -H "Accept: appli
 # POST Request (JSON Keys müssen escaped werden!)
 curl -X POST [https://httpbin.org/post](https://httpbin.org/post) -H "Content-Type: application/json" -d "{\"status\": \"active\"}"
 
+2. Skript ausführen
+Öffne ein Terminal in dem Ordner und führe das Skript aus.
+
+Sequentiell (Nacheinander): Gut für Debugging oder wenn die Reihenfolge wichtig ist.
+.\MultiCurlCmd.ps1 -InputFile commands.txt
